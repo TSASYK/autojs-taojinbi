@@ -458,7 +458,7 @@ function do_simple_task(epoch, sec, reg_str, back_reg, reward) {
         obj.x.click();
         if(textMatches("下滑浏览商品.+").findOne(2000)) {
             console.log('执行下滑浏览操作')
-            do_simple_task_with_swap()
+            do_simple_task_with_swipe()
         } else {
             console.log("等待"+sec+"秒")
             wait(sec)
@@ -477,8 +477,8 @@ function do_simple_task(epoch, sec, reg_str, back_reg, reward) {
     }
 }
 
-function do_simple_task_with_swap() {
-    for (let i = 0; i < 8; i++) {
+function do_simple_task_with_swipe() {
+    for (let i = 0; i < 10; i++) {
         swipe(device.width / 2, device.height * 0.8, device.width / 2, device.height * 0.2, 1000)
         sleep(2000)
     }
