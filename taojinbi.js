@@ -11,7 +11,7 @@ if (floaty && floaty.hasOwnProperty("checkPermission") && !floaty.checkPermissio
 
 //===================用户可编辑参数===================
 //所有任务重复次数,解决新增任务问题
-var MAX_ALL_TASK_EPOCH = 2
+var MAX_ALL_TASK_EPOCH = 3
 //浏览任务最大执行次数
 var MAX_EPOCH = 101
 //任务执行默认等待的时长 考虑到网络卡顿问题 默认15秒
