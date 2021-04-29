@@ -806,7 +806,7 @@ ui.layout(
                             <text text="关键字可设置多个,请以'|'分隔开,特殊任务请确保关键字唯一" textSize="16sp" textColor="blue" />
                             <horizontal><text text="任务执行按钮关键字:" /> <input id="txt_btn_reg_str" text="去完成|去施肥|去领取|去浏览|去逛逛|去消除|去看看" /></horizontal>
                             <horizontal><text text="任务列表界面关键字:" /> <input id="txt_task_list_ui_reg" text="做任务赚金币" /></horizontal>
-                            <horizontal><text text="简单浏览任务关键字:" /> <input id="txt_simple_task_reg_str" text="浏览1|逛1|浏览抽|浏览得能|逛聚划算|逛菜鸟|步数" /></horizontal>
+                            <horizontal><text text="简单浏览任务关键字:" /> <input id="txt_simple_task_reg_str" text="浏览1|逛1|浏览抽|浏览得能|逛聚划算|逛菜鸟|步数|心愿商品" /></horizontal>
                             <horizontal><text text="简单任务跳过关键字:" /> <input id="txt_simple_skip_reg_str" text="商品同款|逛好店|去天猫APP" /></horizontal>
                             <horizontal><text text="庄园小鸡任务关键字:" /> <input id="txt_feedchick_task_reg_str" text="喂小鸡" /></horizontal>
                             <horizontal><text text="逛好店10金币关键字:" /> <input id="txt_browse_goog_shop_reg_str" text="逛好店" /></horizontal>
