@@ -484,6 +484,10 @@ function do_simple_task_with_swipe() {
     }
 }
 
+function daily_check() {
+    toast_console("每日来访领能量点击")
+    btn_click(textMatches('每日来访领能量.+').findOne(2000))
+}
 
 //进入到淘金币列表界面
 function get_into_taojinbi_task_list() {
@@ -521,6 +525,8 @@ function taojinbi_task() {
     for (let i = 0; i < MAX_ALL_TASK_EPOCH; i++) {
         toast_console("#第" + (i + 1) + "次执行全任务")
         get_into_taojinbi_task_list()
+        // 每日签到
+        daily_check()
         if (ui.ck_simple_task.checked) {
             do_simple_task(MAX_EPOCH, wait_sec, simple_task_reg_str, task_list_ui_reg, true)
         }

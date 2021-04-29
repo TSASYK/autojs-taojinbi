@@ -9,4 +9,5 @@ fork from https://github.com/JavisPeng/taojinbi
 * 改进了摇色子活动的前置任务处理
 * 调整默认浏览任务名单: 增加心愿礼物关键字
 * 执行默认次数改为3次
+* 每日签到点击
 * 
