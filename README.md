@@ -10,4 +10,4 @@ fork from https://github.com/JavisPeng/taojinbi
 * 调整默认浏览任务名单: 增加心愿礼物关键字
 * 执行默认次数改为3次
 * 每日签到点击
-* 
+* 消消乐任务退出确认
