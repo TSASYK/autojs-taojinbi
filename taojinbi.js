@@ -379,7 +379,8 @@ function xiaoxiaole_task() {
     sleep(2000)
     //回到主页
     for (let i = 0; i < 6; i++) {
-        cs_click(1, '#8d5546', 0, 0, 0.1, 0.1); sleep(1000) //back(); 
+        cs_click(1, '#8d5546', 0, 0, 0.1, 0.1); sleep(1000) //back();
+        if (cs_click(1, '#BFBFBF', 0.3, 0.7, 0.4, 0.2)) break //灰色暂时离开
         if (cs_click(1, '#ffbd29', 0.2, 0.5, 0.45, 0.45)) break //橙色返回
         if (cs_click(1, '#965417', 0.2, 0.2, 0.6, 0.6, true)) break //咖啡色暂时返回
     }
